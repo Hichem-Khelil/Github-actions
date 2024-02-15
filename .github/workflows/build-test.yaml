@@ -1,5 +1,7 @@
 name: build and test workflow
 
 on:
-  branches:
+  push:
+    branches:
+      - main
     
