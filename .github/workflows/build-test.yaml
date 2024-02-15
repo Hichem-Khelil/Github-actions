@@ -23,7 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version}}
 
     - name: Install
-      run: npm install
+      run: npm install # installer toutes les dépendances définies dans le fichier package.json du projet
 
     - name: Build
       run: npm run build --if-present
