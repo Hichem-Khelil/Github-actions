@@ -19,7 +19,7 @@ jobs:
         node-version: '14'
 
     - name: Install Dependencies
-      run: npm install
+      run: npm install  # installer toutes les dépendances définies dans le fichier package.json du projet
 
     - name: Run Tests
       run: npm test
